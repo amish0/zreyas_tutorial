@@ -16,3 +16,9 @@ def add_number(a, n):
 
 def multiply_array(a, b):
     return np.array([a[i] * b[i] for i in range(len(a))])
+
+def multiply_number(a, n):
+    return np.array([x * n for x in a])
+
+def divide_array(a, b):
+    return np.array([a[i] / b[i] for i in range(len(a))])
